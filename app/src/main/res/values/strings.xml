@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Thesis</string>
+    <string name="look_up_text_view_initial">Press \'Scan\' to search for available devices</string>
+    <string name="look_up_text_view_scanning_failed">No BLE devices found. Press \'Scan\' to search again</string>
+    <string name="look_up_text_view_scanning">Searching for available devices</string>
+
+    <string name="look_up_btn_txt">Scan</string>
+    <string name="stop_look_up_btn_txt">Stop</string>
+    <string name="connect_btn_txt">Connect</string>
+    <string name="refresh_btn">Refresh</string>
+    <string name="pause_btn">Pause</string>
+
+    <string name="device_name">Device Name</string>
+    <string name="device_address">Device Address</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="scanning_status_active">Scanning status: SCANNING</string>
+    <string name="scanning_status_inactive">Scanning status: INACTIVE</string>
+    <string name="service_name">Service name</string>
+    <string name="connect_service">Connect service</string>
+    <string name="show_graph">Show Graph</string>
+    <string name="hide_graph">Hide Graph</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_connected">DEVICE CONNECTED</string>
+    <string name="device_disconnected">DEVICE DISCONNECTED</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="waiting_notified_characteristic">Retrieving sensor\'s data from the BLE device</string>
+    <string name="waiting_services">Retrieving services from the BLE device</string>
+    <string name="connection_lost">Lost connection with BLE device. Trying to reconnect..</string>
+    <string name="connectivity_status">Connecting..</string>
+    <string name="settings">Settings</string>
+    <string name="scroll_to_end">Scroll to end</string>
+
+    <string name="show_services">Display GATTs</string>
+    <string name="draw_graph">Display a LiveData graph</string>
+    <string name="send_to_sami">Offload data to SaMi cloud</string>
+    <string name="get_from_sami">Get data from SaMi cloud</string>
+    <string name="title_activity_get_response">GetResponseActivity</string>
+    <string name="measurement_name">Measurement name</string>
+    <string name="measurement_name_error">Enter the measurement name!</string>
+    <string name="measurement_tag">Measurement tag</string>
+    <string name="measurement_tag_error">Enter the measurement tag!</string>
+    <string name="temperature_tag">Temperature tag</string>
+    <string name="temperature_tag_error">Enter the temperature tag!</string>
+    <string name="gas_tag">Gas tag</string>
+    <string name="gas_tag_error">Enter the gas tag!</string>
+    <string name="post_button_text">Send</string>
+    <string name="get_button_text">Get</string>
+    <string name="key">Key</string>
+    <string name="key_password">SK50D\-2018A47DB5C3EE70205\-23</string>
+    <string name="key_error">Enter your key</string>
+    <string name="take_amount">20</string>
+    <string name="from_date">2018\-04\-28</string>
+    <string name="to_date">2018\-06\-01</string>
+
+
+</resources>
