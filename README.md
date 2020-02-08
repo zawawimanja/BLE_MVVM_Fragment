@@ -5,7 +5,7 @@ SharedViewModel .
 
 But the problem when you are using Activity to navigate to new page. The connection is not appear and the viewmodel in the activity fail to retrieve the data .You can use popup menu option and you will notice that the connection will be lost.
 
-This project also the connection is not stable . Already binding the service but will connect & disconnect automatically.
+This project also the connection is not stable . Already binding the service but will connect & disconnect automatically. All fragment will receive the broadcast simultaneously. This should not occur as only the activity that user view should receive broadcast. Should not all receive. 
 
 Fork Project# Thesis
 Android app that reads sensors' (Grove temperature sensor v1.2 + MQ-135 gas sensor) data from the BLE shield by RedBearLab, which is mounted on Arduino Uno. The measurements can be exchanged with 'SaMi' cloud service of Savonia UAS. 
